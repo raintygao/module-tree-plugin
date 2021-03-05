@@ -1,0 +1,24 @@
+{
+  "name": "module-tree-plugin",
+  "version": "1.0.0",
+  "main": "dist/bundle.js",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "opener": "^1.5.2"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^17.1.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^11.2.0",
+    "rollup": "^2.40.0"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "files": [
+    "dist"
+  ]
+}
